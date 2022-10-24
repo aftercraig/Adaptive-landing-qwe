@@ -1,26 +1,39 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    
+
+
+}
+
 .body {
-    max-width: 1440px;
-    max-height: 200px;
     background-color: #E5E000;
+    height: 1080px;
 }
 
 .picture {
-    max-width: 1440px;
-    max-height: 1080px;
+    width: 1440px;
+    height: 1080px;
 }
 
 .header {
-    display: flex;
-    align-items: center;
+    width: 1440px;
+    height: 200px;
+    background-color: #E5E000;
+}
 
+.namesurname {
+    margin-top: 300px;
 
 
 }
 .author {
     color: white;
     font-size: 50px;
+    text-decoration: none;
+}
 
-
+@media screen and (max-width: 1440px) {
 
 
 
