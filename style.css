@@ -18,5 +18,50 @@ body {
 	cursor: url('./cursor/arrow.cur'), auto;
 }
 
+.header {
+	height: 235px;
+	width: 100%;
+	background-color: #FCEE0A;
+	background-image: url(./img/cyberlines.svg);
+}
+
+.main-nickname {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	padding-top: 30px;
+}
+
+.nickname {
+	font-family: 'Cyberpunk Regular';
+	color: #3B363C;
+	font-size: 100px;
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: #00FFD2;
+	animation: Aftercraig 2s ease 0s infinite normal forwards;
+}
+
+@keyframes Aftercraig {
+	0% {
+		transform: translate(0);
+	}
+	20% {
+		transform: translate(-2px, 2px);
+	}
+	40% {
+		transform: translate(-2px, -2px);
+	}
+	60% {
+		transform: translate(2px, 2px);
+	}
+	80% {
+		transform: translate(2px, -2px);
+	}
+	100% {
+		transform: translate(0);
+	}
+}
+
 @media screen and (max-width: 1440px) {
+
 }
