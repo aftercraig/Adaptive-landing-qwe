@@ -1,40 +1,22 @@
 * {
-    margin: 0px;
-    padding: 0px;
-    
-
-
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
-.body {
-    background-color: #E5E000;
-    height: 1080px;
+@font-face {
+	font-family: 'Cyberpunk Regular';
+	src: url('./fonts/cyberpunk_regular.eot'); /* IE 9 Compatibility Mode */
+	src: url('./fonts/cyberpunk_regular.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('./fonts/cyberpunk_regular.woff2') format('woff2'), /* Super Modern Browsers */
+		url('./fonts/cyberpunk_regular.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('./fonts/cyberpunk_regular.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('./fonts/cyberpunk_regular.svg#cyberpunk_regular') format('svg'); /* Chrome < 4, Legacy iOS */
 }
 
-.picture {
-    width: 1440px;
-    height: 1080px;
-}
-
-.header {
-    width: 1440px;
-    height: 200px;
-    background-color: #E5E000;
-}
-
-.namesurname {
-    margin-top: 300px;
-
-
-}
-.author {
-    color: white;
-    font-size: 50px;
-    text-decoration: none;
+body {
+	cursor: url('./cursor/arrow.cur'), auto;
 }
 
 @media screen and (max-width: 1440px) {
-
-
-
 }
