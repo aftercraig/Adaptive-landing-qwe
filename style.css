@@ -23,6 +23,7 @@ body {
 	width: 100%;
 	background-color: #FCEE0A;
 	background-image: url(./img/cyberlines.svg);
+	border-bottom: 4px ridge #00FFD2;
 }
 
 .main-nickname {
@@ -60,6 +61,56 @@ body {
 	100% {
 		transform: translate(0);
 	}
+}
+
+.buttons {
+	width: 100%;
+
+	display: flex;
+	justify-content: space-between;
+	padding: 0 150px 0 150px;
+	
+}
+
+.VK {
+	font-family: 'Cyberpunk Regular';
+	background-color: #F7EE6C;
+	border: 4px #3D3D3D solid;
+	color: #3B363C;
+	border-radius: 15px;
+	width: 200px;
+	padding: 15px 15px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
+}
+
+.VK:hover {
+	cursor: url(./cursor/link.cur), auto;
+	background-color: #D8D05F;
+	transition: background-color 0.2s linear;
+}
+
+
+.GitHub {
+	font-family: 'Cyberpunk Regular';
+	background-color: #F7EE6C;
+	border: 4px #3D3D3D solid;
+	color: #3B363C;
+	border-radius: 15px;
+	width: 200px;
+	padding: 15px 15px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
+}
+
+.GitHub:hover {
+	cursor: url(./cursor/link.cur), auto;
+	background-color: #D8D05F;
+	transition: background-color 0.2s linear;
 }
 
 @media screen and (max-width: 1440px) {
