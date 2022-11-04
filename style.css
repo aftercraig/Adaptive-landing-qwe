@@ -14,10 +14,32 @@
 		url('./fonts/cyberpunk_regular.ttf') format('truetype'), /* Safari, Android, iOS */
 		url('./fonts/cyberpunk_regular.svg#cyberpunk_regular') format('svg'); /* Chrome < 4, Legacy iOS */
 }
+
+@font-face {
+	font-family: 'beer money';
+	src: url('./fonts/beer_money.eot'); /* IE 9 Compatibility Mode */
+	src: url('./fonts/beer_money.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('./fonts/beer_money.woff2') format('woff2'), /* Super Modern Browsers */
+		url('./fonts/beer_money.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('./fonts/beer_money.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('./fonts/beer_money.svg#beer_money') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+	font-family: 'ProtoSans56';
+	src: url('../fonts/protosans56.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/protosans56.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/protosans56.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/protosans56.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/protosans56.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/protosans56.svg#protosans56') format('svg'); /* Chrome < 4, Legacy iOS */
+}
 /* ////// */
 
 body {
-	cursor: url('./cursor/arrow.cur'), auto;
+	background: #191919 url(./img/bglines.svg) center;
+	-webkit-background-size: cover;
+	cursor: url(./cursor/arrow.cur), default;
 }
 
 .header {
@@ -73,44 +95,52 @@ body {
 }
 
 .VK {
-	font-family: 'Cyberpunk Regular';
+	font-family: 'beer money';
 	background-color: #F7EE6C;
 	border: 3px #3D3D3D solid;
 	color: #3B363C;
 	border-radius: 15px;
 	width: 200px;
 	padding: 15px 15px;
-	text-align: center;
 	text-decoration: none;
-	display: inline-block;
-	font-size: 20px;
+	font-size: 25px;
 }
 
 .VK:hover {
-	cursor: url(./cursor/link.cur), auto;
 	background-color: #D8D05F;
 	transition: background-color 0.2s linear;
+	cursor: url(./cursor/link.cur), pointer;
 }
 
+.audio {
+	border: 3px #3D3D3D solid;
+	border-radius: 15px;
+	background-color: #F7EE6C;
+	margin: 10px 50px 0 50px;
+	padding: 10px 10px;
+}
 
 .GitHub {
-	font-family: 'Cyberpunk Regular';
+	font-family: 'beer money';
 	background-color: #F7EE6C;
 	border: 3px #3D3D3D solid;
 	color: #3B363C;
 	border-radius: 15px;
 	width: 200px;
 	padding: 15px 15px;
-	text-align: center;
 	text-decoration: none;
-	display: inline-block;
-	font-size: 20px;
+	font-size: 25px;
 }
 
 .GitHub:hover {
-	cursor: url(./cursor/link.cur), auto;
 	background-color: #D8D05F;
 	transition: background-color 0.2s linear;
+	cursor: url(./cursor/link.cur), pointer;
+}
+
+.judy {
+	width: 250px;
+	height: 250px;
 }
 
 @media screen and (max-width: 1440px) {
