@@ -24,20 +24,11 @@
 		url('./fonts/beer_money.ttf') format('truetype'), /* Safari, Android, iOS */
 		url('./fonts/beer_money.svg#beer_money') format('svg'); /* Chrome < 4, Legacy iOS */
 }
-
-@font-face {
-	font-family: 'ProtoSans56';
-	src: url('../fonts/protosans56.eot'); /* IE 9 Compatibility Mode */
-	src: url('../fonts/protosans56.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
-		url('../fonts/protosans56.woff2') format('woff2'), /* Super Modern Browsers */
-		url('../fonts/protosans56.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
-		url('../fonts/protosans56.ttf') format('truetype'), /* Safari, Android, iOS */
-		url('../fonts/protosans56.svg#protosans56') format('svg'); /* Chrome < 4, Legacy iOS */
-}
 /* ////// */
 
 body {
 	background: #191919 url(./img/bglines.svg) center;
+	background-size: cover;
 	-webkit-background-size: cover;
 	cursor: url(./cursor/arrow.cur), default;
 }
@@ -46,7 +37,9 @@ body {
 	height: 235px;
 	width: 100%;
 	background-color: #FCEE0A;
-	background-image: url(./img/cyberlines.svg);
+	background-image: url(./img/headerlines.svg);
+	background-size: cover;
+	-webkit-background-size: cover;
 	border-bottom: 4px ridge #00FFD2;
 }
 
@@ -138,11 +131,68 @@ body {
 	cursor: url(./cursor/link.cur), pointer;
 }
 
+.judy-block {
+	display: flex;
+	flex-direction: row;
+	padding: 30px 30px;
+}
+
 .judy {
 	width: 250px;
 	height: 250px;
+	pointer-events: none;
 }
 
-@media screen and (max-width: 1440px) {
+.judy-message {
+	margin-left: 30px;
+	font-family: 'beer money';
+	font-size: 40px;
+	color: #3FCAC2;
+	border: 3px #3FCAC2 solid;
+	border-radius: 15px;
+	background-color: #44abff36;
+	padding: 30px 30px;
+}
+
+.judy-h1 {
+	font-family: 'Cyberpunk Regular';
+	color: #68ffe3;
+	font-size: 50px;
+	padding-bottom: 20px;
+}
+
+.judy-body {
+	display: flex;
+	flex-direction: row-reverse;
+	padding: 15px 15px;
+}
+
+.judy-png {
+	pointer-events: none;
+	padding-left: 30px;
+}
+
+.judy-full-text {
+	font-family: 'beer money';
+	font-size: 40px;
+	color: #3FCAC2;
+	border: 3px #3FCAC2 solid;
+	border-radius: 15px;
+	background-color: #44abff36;
+	padding: 30px 30px;
+}
+
+.video {
+	display: flex;
+	justify-content: center;
+	padding-top: 30px;
+	border-top: 4px ridge #00FFD2;
+}
+
+.description {
+	padding-bottom: 20px;
+}
+
+@media screen and (min-width:305px) and (max-width:970px) {
 
 }
