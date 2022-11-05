@@ -199,6 +199,7 @@ body {
 	border-radius: 15px;
 	background-color: #4ad8eb36;
 	padding: 30px 30px;
+	max-height: 150px;
 }
 
 .silverhand-block {
