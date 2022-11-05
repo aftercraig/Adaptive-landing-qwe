@@ -28,6 +28,8 @@
 
 body {
 	background: #1a1a1a url(./img/bglines.svg) center;
+	background-size: cover;
+	-webkit-background-size: cover;
 	cursor: url(./cursor/arrow.cur), default;
 }
 
@@ -207,6 +209,7 @@ body {
 	flex-wrap: wrap;
 	justify-content: center;
 	padding: 60px 30px 0 30px;
+	pointer-events: none;
 }
 
 footer {
