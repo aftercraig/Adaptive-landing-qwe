@@ -27,9 +27,7 @@
 /* ////// */
 
 body {
-	background: #191919 url(./img/bglines.svg) center;
-	background-size: cover;
-	-webkit-background-size: cover;
+	background: #1a1a1a url(./img/bglines.svg) center;
 	cursor: url(./cursor/arrow.cur), default;
 }
 
@@ -134,7 +132,7 @@ body {
 .judy-block {
 	display: flex;
 	flex-direction: row;
-	padding: 30px 30px;
+	padding: 60px 30px;
 }
 
 .judy {
@@ -150,7 +148,7 @@ body {
 	color: #3FCAC2;
 	border: 3px #3FCAC2 solid;
 	border-radius: 15px;
-	background-color: #44abff36;
+	background-color: #4ad8eb36;
 	padding: 30px 30px;
 }
 
@@ -164,7 +162,7 @@ body {
 .judy-body {
 	display: flex;
 	flex-direction: row-reverse;
-	padding: 15px 15px;
+	padding: 0 30px 0 30px;
 }
 
 .judy-png {
@@ -178,7 +176,7 @@ body {
 	color: #3FCAC2;
 	border: 3px #3FCAC2 solid;
 	border-radius: 15px;
-	background-color: #44abff36;
+	background-color: #4ad8eb36;
 	padding: 30px 30px;
 }
 
@@ -191,6 +189,45 @@ body {
 
 .description {
 	padding-bottom: 20px;
+}
+
+.silverhand-message {
+	font-family: 'beer money';
+	font-size: 40px;
+	color: #3FCAC2;
+	border: 3px #3FCAC2 solid;
+	border-radius: 15px;
+	background-color: #4ad8eb36;
+	padding: 30px 30px;
+}
+
+.silverhand-block {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 60px 30px 0 30px;
+}
+
+footer {
+	height: 235px;
+	width: 100%;
+	background-color: #FCEE0A;
+	background-image: url(./img/headerlines.svg);
+	background-size: cover;
+	-webkit-background-size: cover;
+	border-top: 4px ridge #00FFD2;
+}
+
+.author {
+	font-family: 'beer money';
+	color: #3B363C;
+	font-size: 70px;
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: #00FFD2;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	padding-top: 100px;
 }
 
 @media screen and (min-width:305px) and (max-width:970px) {
