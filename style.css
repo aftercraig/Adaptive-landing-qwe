@@ -29,7 +29,6 @@
 body {
 	background: #1a1a1a url(./img/bglines.svg) center;
 	background-size: cover;
-	-webkit-background-size: cover;
 	cursor: url(./cursor/arrow.cur), default;
 }
 
@@ -39,7 +38,6 @@ body {
 	background-color: #FCEE0A;
 	background-image: url(./img/headerlines.svg);
 	background-size: cover;
-	-webkit-background-size: cover;
 	border-bottom: 4px ridge #00FFD2;
 }
 
@@ -218,7 +216,6 @@ footer {
 	background-color: #FCEE0A;
 	background-image: url(./img/headerlines.svg);
 	background-size: cover;
-	-webkit-background-size: cover;
 	border-top: 4px ridge #00FFD2;
 }
 
