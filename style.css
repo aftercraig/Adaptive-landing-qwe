@@ -168,6 +168,7 @@ body {
 .judy-png {
 	pointer-events: none;
 	padding-left: 30px;
+	max-height: 860px;
 }
 
 .judy-full-text {
